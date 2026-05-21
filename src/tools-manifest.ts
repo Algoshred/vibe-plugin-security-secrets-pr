@@ -18,25 +18,25 @@ export const TOOLS_MANIFEST: ToolManifest = {
     downloads: {
       "linux-x64": {
         url: `https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz`,
-        sha256: "ce4d2c10c3d4f44d5b5d4f5d8a2e3a8e4d5b5d4f5d8a2e3a8e4d5b5d4f5d8a2e3", // PLACEHOLDER — replace from upstream checksums file before release
+        sha256: "5bc41815076e6ed6ef8fbecc9d9b75bcae31f39029ceb55da08086315316e3ba",
         binaryWithinArchive: "gitleaks",
         archive: "tar.gz",
       },
       "linux-arm64": {
         url: `https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_arm64.tar.gz`,
-        sha256: "PLACEHOLDER_REPLACE_BEFORE_PUBLISH",
+        sha256: "654c935542c89f565aabe7bf7c6c500830f116c114f0aeb509d2460c1ac2e6da",
         binaryWithinArchive: "gitleaks",
         archive: "tar.gz",
       },
       "darwin-x64": {
         url: `https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_darwin_x64.tar.gz`,
-        sha256: "PLACEHOLDER_REPLACE_BEFORE_PUBLISH",
+        sha256: "5b42c6e4b1fd693eaeb2b5b7faa5f17a1434299d4deb2de63d4b2efd7c753128",
         binaryWithinArchive: "gitleaks",
         archive: "tar.gz",
       },
       "darwin-arm64": {
         url: `https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_darwin_arm64.tar.gz`,
-        sha256: "PLACEHOLDER_REPLACE_BEFORE_PUBLISH",
+        sha256: "cad3de5dc9a4d5447d967a70a4d49499c557f04db028274cc324f9ff983f6502",
         binaryWithinArchive: "gitleaks",
         archive: "tar.gz",
       },
