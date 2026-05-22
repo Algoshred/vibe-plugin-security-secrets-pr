@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "description": "Gitleaks-backed secret scanner for the pull_request.fast lifecycle stage. Registers as a security.secrets provider with @vibecontrols/vibe-plugin-security.",
   "engines": {
-    "bun": ">=1.3.0"
+    "bun": ">=1.3.14"
   },
   "author": {
     "name": "Vignesh T.V",
