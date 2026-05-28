@@ -17,7 +17,7 @@ import type {
 import { GitleaksProvider } from "./provider.js";
 
 const PLUGIN_NAME = "security-secrets-pr";
-const PLUGIN_VERSION = "2026.521.1";
+const PLUGIN_VERSION = "2026.527.1";
 
 export const createPlugin: VibePluginFactory = (_ctx: ProfileContext): VibePlugin => {
   const provider = new GitleaksProvider();
