@@ -50,6 +50,10 @@ export class GitleaksProvider implements SecurityProvider {
   async ensureToolInstalled(): Promise<void> {
     const dataDir =
       this.host?.getDataDir?.() ?? path.join(os.homedir(), ".boff/vibecontrols");
+    const gitleaksEntry = TOOLS_MANIFEST.gitleaks;
+    if (!gitleaksEntry) {
+      throw new Error("gitleaks entry missing from TOOLS_MANIFEST");
+    }
     this.toolPath = await resolveToolPath(
       {
         dataDir,
@@ -60,7 +64,7 @@ export class GitleaksProvider implements SecurityProvider {
         },
       },
       "gitleaks",
-      TOOLS_MANIFEST.gitleaks,
+      gitleaksEntry,
     );
   }
 
